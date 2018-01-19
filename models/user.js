@@ -1,0 +1,1 @@
+var bcyrptjs = require('bcryptjs');
