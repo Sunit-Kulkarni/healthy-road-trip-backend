@@ -18,6 +18,8 @@ var home = require('./routes/home');
 var application = require('./routes/application');
 var users = require('./routes/users');
 
+SALT_WORK_FACTOR = 12;
+
 var app = express();
 
 // view engine setup
